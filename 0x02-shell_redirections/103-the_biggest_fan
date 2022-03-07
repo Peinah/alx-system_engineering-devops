@@ -1,2 +1,64 @@
 #1/bin/bash
-tail -n+2 | cut -f1 | sort | uniq -c | sort -rn | cut -c 9- | head -11 
+
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Peinah/alx-system_engineering-devops.git
+   98e5caa..52cf82e  master -> master
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# vi 101-gifs
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 101-gifs
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m "gifs"
+[master 981bda6] gifs
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/101-gifs
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 406 bytes | 406.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Peinah/alx-system_engineering-devops.git
+   52cf82e..981bda6  master -> master
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# vi 103-the_biggest_fan
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 103-the_biggest_fan
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m "biggest fan"
+[master ae4b364] biggest fan
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/103-the_biggest_fan
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+#!/bin/bash
+
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Peinah/alx-system_engineering-devops.git
+   98e5caa..52cf82e  master -> master
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# vi 101-gifs
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 101-gifs
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m "gifs"
+[master 981bda6] gifs
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/101-gifs
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 406 bytes | 406.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Peinah/alx-system_engineering-devops.git
+   52cf82e..981bda6  master -> master
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# vi 103-the_biggest_fan
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 103-the_biggest_fan
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m "biggest fan"
+[master ae4b364] biggest fan
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/103-the_biggest_fan
+root@e58ec3d19fb5:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+#!/bin/bash
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3
